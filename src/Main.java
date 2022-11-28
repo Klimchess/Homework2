@@ -46,12 +46,12 @@ public class Main {
     System.out.println("все часы " + allWork);
     var time = 8;
     System.out.println("время работы сотрудника " + time + " часов ");
-    var workers = allWork / time;
-    System.out.println("Всего работников в кампании " + workers + " человек ");
-    workers = workers + 94;
-    System.out.println(workers);
-    allWork = workers * time;
-    System.out.println("Если в кампании работает " + workers + " человек, то всего " + allWork +
+    var worker = allWork / time;
+    System.out.println("Всего работников в кампании " + worker + " человек ");
+    worker = worker + 94;
+    System.out.println(worker);
+    allWork = worker * time;
+    System.out.println("Если в кампании работает " + worker + " человек, то всего " + allWork +
             " часов работы может быть поделено между сотрудниками ");
 
 
